@@ -9,7 +9,7 @@ permissions:
   pull-requests: read
 
 jobs:
-  update_release_with_tag:
+  update_release_draft_with_tag:
     if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
     steps:
