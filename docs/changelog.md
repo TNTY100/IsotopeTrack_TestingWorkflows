@@ -5,6 +5,19 @@ All notable changes to IsotopeTrack are documented here.
 
 ---
 
+## v1.11.5 - 2026-08-14
+
+### What’s Changed
+
+- Feature B: New view for window B ([#11](https://github.com/TNTY100/IsotopeTrack_TestingWorkflows/pull/11)) [@TNTY100](https://github.com/TNTY100)
+- Feature A: Adds formatting in a window ([#10](https://github.com/TNTY100/IsotopeTrack_TestingWorkflows/pull/10)) [@TNTY100](https://github.com/TNTY100)
+
+### Contributors
+
+@TNTY100
+
+**Full Changelog**: [$v1.11.4...1.11.5](https://github.com/TNTY100/IsotopeTrack_TestingWorkflows/compare/v1.11.4...v1.11.5)
+
 ## $v1.11.4 - 2026-08-14
 
 ### What’s Changed
