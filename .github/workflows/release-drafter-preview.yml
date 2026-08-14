@@ -1,6 +1,9 @@
 name: Release Drafter Preview
 
 on:
+  push:
+    tags:
+      - main
   workflow_dispatch:
 
 
@@ -9,11 +12,18 @@ permissions:
   pull-requests: read
 
 jobs:
+  update_release_with_tag:
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: release-drafter/release-drafter@v7
+        with:
+          config-name: release-drafter.yml
+          tag: ${{ github.ref_name }}
+
   update_release_draft:
     runs-on: ubuntu-latest
     steps:
       - uses: release-drafter/release-drafter@v7
-        env:
-          REPO_URL: ${{ github.repository }}
         with:
           config-name: release-drafter.yml
