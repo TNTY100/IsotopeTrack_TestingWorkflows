@@ -8,4 +8,4 @@ template: |
   
   $CONTRIBUTORS
   
-  **Full Changelog**: [$PREVIOUS_TAG...$NEXT_PATCH_VERSION](https://github.com/$GITHUB_REPOSITORY/compare/$PREVIOUS_TAG...$NEXT_PATCH_VERSION)
+  **Full Changelog**: [$PREVIOUS_TAG...$NEXT_PATCH_VERSION](https://github.com/{{$GITHUB_REPOSITORY}}/compare/$PREVIOUS_TAG...$NEXT_PATCH_VERSION)
