@@ -5,6 +5,12 @@ All notable changes to IsotopeTrack are documented here.
 
 ---
 
+## v1.10.16 - 2026-08-14
+
+### What’s Changed
+
+- Added adde.txt ([#7](https://github.com/TNTY100/IsotopeTrack_TestingWorkflows/pull/7)) [TNTY100](https://github.com/TNTY100)
+
 ## v1.10.15 - 2026-08-14
 
 ### What’s Changed
@@ -132,12 +138,14 @@ All notable changes to IsotopeTrack are documented here.
 ### New Features
 
 - CLI support — app can now be launched from terminal with arguments:
+  
   - Load project files directly
   - Load Nu and TOFWERK data files
   - Select isotopes and presets via command line
   - See `tools/cli_utils.py` for details
   
 - Isobaric correction module (still in development)
+  
 
 ### Improvements
 
@@ -296,12 +304,15 @@ Standardizes several Results plot dialogs around the four-button UI contract:Plo
 ### New Features
 
 - Results Canvas completely redesigned with three new figures:
+  
   - **Network** — multi-element particle relationships
   - **Concentration** — particle concentration overview
   - **Matrix** — element correlation matrix
   
 - Intel Mac support — dedicated native bundle for Intel-based Macs (x86_64)
+  
 - Faster project saving and loading
+  
 
 ### Bug Fixes
 
