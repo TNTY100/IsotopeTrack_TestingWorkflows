@@ -9,7 +9,7 @@ permissions:
   pull-requests: read
 
 jobs:
-  update-release-with-tag:
+  update_release_with_tag:
     name: "Update Release Draft (With Tag)"
     if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
@@ -19,7 +19,7 @@ jobs:
           config-name: release-drafter.yml
           tag: ${{ github.ref_name }}
 
-  update-release-draft:
+  update_release_draft:
     name: "Update Release Draft"
     if: !startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
