@@ -5,6 +5,19 @@ All notable changes to IsotopeTrack are documented here.
 
 ---
 
+## v1.10.17 - 2026-08-14
+
+### What’s Changed
+
+- Made full changelog a link ([#9](https://github.com/TNTY100/IsotopeTrack_TestingWorkflows/pull/9)) [@TNTY100](https://github.com/TNTY100)
+- Added @ and full changelog ([#8](https://github.com/TNTY100/IsotopeTrack_TestingWorkflows/pull/8)) [@TNTY100](https://github.com/TNTY100)
+
+### Contributors
+
+@TNTY100
+
+**Full Changelog**: [v1.10.16...1.10.17](https://github.com/TNTY100/IsotopeTrack_TestingWorkflows/compare/v1.10.16...1.10.17)
+
 ## v1.10.16 - 2026-08-14
 
 ### What’s Changed
