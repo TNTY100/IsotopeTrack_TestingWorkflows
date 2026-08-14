@@ -1,12 +1,11 @@
 name: Build IsotopeTrack
 
 on:
-  # TODO: Remove comments
-  #push:
-  #  branches: [ main, dev, 'ci/**' ]
-  #  tags: [ 'v*' ]
-  #pull_request:
-  #  branches: [ main, dev ]
+  push:
+    branches: [ main, dev, 'ci/**' ]
+    tags: [ 'v*' ]
+  pull_request:
+    branches: [ main, dev ]
   workflow_dispatch:
 
 jobs:
