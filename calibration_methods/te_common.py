@@ -20,7 +20,9 @@ _itk_log = logging.getLogger("IsotopeTrack.calibration_methods.te_common")
 # ──────────────────────────────────────────────────────────────────────────────
 
 def base_stylesheet(p) -> str:
-    """Full base stylesheet for calibration/TE windows, built from a
+    """
+    Something really important
+    Full base stylesheet for calibration/TE windows, built from a
     theme Palette.  Covers main window, group boxes, buttons, inputs,
     tables, labels, tabs, tab bar, and list widgets.
 
