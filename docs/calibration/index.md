@@ -14,11 +14,6 @@ Ionic calibration and transport-efficiency methods.
 
 **1** classes &nbsp;·&nbsp; **0** functions &nbsp;·&nbsp; **12** methods
 
-### [`TE_mass.py`](te-mass.md)
-
-
-**5** classes &nbsp;·&nbsp; **0** functions &nbsp;·&nbsp; **84** methods
-
 ### [`TE_number.py`](te-number.md)
 
 

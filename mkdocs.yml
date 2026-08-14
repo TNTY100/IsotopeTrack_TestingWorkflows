@@ -122,7 +122,6 @@ nav:
     - Overview: calibration/index.md
     - "TE.py": calibration/te.md
     - "TE_input.py": calibration/te-input.md
-    - "TE_mass.py": calibration/te-mass.md
     - "TE_number.py": calibration/te-number.md
     - "calibration_registry.py": calibration/calibration-registry.md
     - "ionic_CAL.py": calibration/ionic-cal.md
