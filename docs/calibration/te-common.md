@@ -28,7 +28,7 @@ Custom delegate that restricts table-cell editing to numeric values.
 
 | Function | Signature | Description |
 |----------|-----------|-------------|
-| `base_stylesheet` | `(p) → str` | Full base stylesheet for calibration/TE windows, built from a |
+| `base_stylesheet` | `(p) → str` | Something really important |
 | `preview_styles` | `(p) → dict` | Return the four preview-label stylesheet strings tinted for the |
 | `return_button_style` | `(p) → str` | Stylesheet for the 'Back to Main' button.  In light mode it keeps |
 | `show_data_source_dialog` | `(parent=None)` | Show the "Select Data Source" popup and return the user's choice. |
