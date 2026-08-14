@@ -1,4 +1,4 @@
-change-template: '- $TITLE ([#$NUMBER]($URL)) [$AUTHOR]($AUTHOR_URL)'
+change-template: '- $TITLE ([#$NUMBER]($URL)) [$AUTHOR_MENTION]($AUTHOR_URL)'
 template: |
   ## What’s Changed
 
