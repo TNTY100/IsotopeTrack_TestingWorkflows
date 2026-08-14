@@ -1,4 +1,4 @@
-name: Release Drafter Preview
+name: Manual Release Drafter Preview
 
 on:
   workflow_dispatch:
