@@ -1,5 +1,11 @@
-change-template: '- $TITLE ([#$NUMBER]($URL)) [$AUTHOR]($AUTHOR_URL)'
+change-template: '- $TITLE ([#$NUMBER]($URL)) [@$AUTHOR]($AUTHOR_URL)'
 template: |
   ## What’s Changed
 
   $CHANGES
+  
+  ## Contributors
+  
+  $CONTRIBUTORS
+  
+  **Full Changelog**: [$PREVIOUS_TAG...$NEXT_PATCH_VERSION](https://github.com/TNTY100/$REPOSITORY/compare/$PREVIOUS_TAG...$NEXT_PATCH_VERSION)
