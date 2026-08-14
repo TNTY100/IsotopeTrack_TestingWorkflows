@@ -16,9 +16,9 @@ All notable changes to IsotopeTrack are documented here.
 
 @TNTY100
 
-**Full Changelog**: [$v1.11.4...1.11.5](https://github.com/TNTY100/IsotopeTrack_TestingWorkflows/compare/v1.11.4...v1.11.5)
+**Full Changelog**: [v1.11.4...1.11.5](https://github.com/TNTY100/IsotopeTrack_TestingWorkflows/compare/v1.11.4...v1.11.5)
 
-## $v1.11.4 - 2026-08-14
+## v1.11.4 - 2026-08-14
 
 ### What’s Changed
 
