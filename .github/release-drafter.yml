@@ -1,4 +1,4 @@
-change-template: '- $TITLE ([#$NUMBER]($URL)) [$AUTHOR]($AUTHOR_URL)'
+change-template: '- $TITLE ([#$NUMBER]($URL)) [@$AUTHOR]($AUTHOR_URL)'
 template: |
   ## What’s Changed
 
@@ -8,4 +8,4 @@ template: |
   
   $CONTRIBUTORS
   
-  $PREVIOUS_TAG
+  **Full Changelog**: $REPOSITORY ${PREVIOUS_TAG}...$NEXT_PATCH_VERSION
