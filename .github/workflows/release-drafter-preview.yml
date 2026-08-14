@@ -13,5 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: release-drafter/release-drafter@v7
+        env:
+          REPO_URL: ${{ github.repository }}
         with:
           config-name: release-drafter.yml
