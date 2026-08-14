@@ -8,4 +8,4 @@ template: |
   
   $CONTRIBUTORS
   
-  **Full Changelog**: $REPOSITORY ${PREVIOUS_TAG}...$NEXT_PATCH_VERSION
+  **Full Changelog**: [$PREVIOUS_TAG...$NEXT_PATCH_VERSION](https://github.com/TNTY100/$REPOSITORY/compare/$PREVIOUS_TAG...$NEXT_PATCH_VERSION)
